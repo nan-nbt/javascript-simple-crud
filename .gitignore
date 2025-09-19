@@ -1,0 +1,17 @@
+# Environment files
+backend/.env
+
+# Node modules
+backend/node_modules/
+frontend/node_modules/
+
+# Logs
+*.log
+
+# Dependency lock files (opsional, kalau mau simpan bisa hapus baris ini)
+backend/package-lock.json
+frontend/package-lock.json
+
+# Build artifacts (kalau ada)
+dist/
+build/

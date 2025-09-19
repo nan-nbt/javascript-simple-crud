@@ -1,0 +1,29 @@
+GET http://localhost:3000/groupms
+
+GET http://localhost:3000/groupms/6f1e98dfc06749309fffa8
+
+POST http://localhost:3000/groupms
+Content-Type: application/json
+
+{
+    "groupm_no": "TEST01",
+    "groupm_name": "Testing Group",
+    "groupm_name_en": "Testing Group",
+    "enabled": "Y",
+    "create_user": "20240800022964",
+    "update_user": "20240800022964"
+}
+
+PUT http://localhost:3000/groupms/6f1e98dfc06749309fffa8
+Content-Type: application/json
+
+{
+    "groupm_no": "TEST01",
+    "groupm_name": "Testing Group 1",
+    "groupm_name_en": "Testing Group 1",
+    "enabled": "Y",
+    "create_user": "20240800022964",
+    "update_user": "20240800022964"
+}
+
+DELETE http://localhost:3000/groupms/6f1e98dfc06749309fffa8
