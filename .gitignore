@@ -8,10 +8,13 @@ frontend/node_modules/
 # Logs
 *.log
 
-# Dependency lock files (opsional, kalau mau simpan bisa hapus baris ini)
+# Dependency lock files
 backend/package-lock.json
 frontend/package-lock.json
 
-# Build artifacts (kalau ada)
+# Build artifacts
 dist/
 build/
+
+# Request http
+client.http
