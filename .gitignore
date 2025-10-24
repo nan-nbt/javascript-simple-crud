@@ -1,20 +1,24 @@
 # Environment files
 backend/.env
+frontend/.env
 
 # Node modules
 backend/node_modules/
 frontend/node_modules/
 
 # Logs
-*.log
+backend/*.log
+frontend/*.log
 
 # Dependency lock files
 backend/package-lock.json
 frontend/package-lock.json
 
 # Build artifacts
-dist/
-build/
+backend/dist/
+frontend/dist/
+backend/build/
+frontend/build/
 
 # Request http
 backend/client.http
